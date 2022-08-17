@@ -25,20 +25,6 @@ body{
     border-radius: 20px;
     
 }
-#logo{
-    height: 120px;
-     width: 100px;
-    float: left;
-    border-radius: 20px;
-    padding-left: 20px;
-}
-#logo4{
-    height: 120px;
-    width: 100px;
-    float: right;
-    padding-left:10px ;
-    border-radius: 20px;
-}
 header{
     text-align: center;
     font-size: 40px;
@@ -252,38 +238,52 @@ article{
     height: 40px;
     width: 40px;
 }
-
-@media (max-width : 1300px){
+@media (max-width : 1510px){
     nav >ul>li{
         display: inline;
         position: relative;
     
     }
     section{
-        width: 55%;
-        height: 850px;
+        width: 100%;
+        height: 1540px;
         text-align: center;
        }
        
-        section #ubi{
-         width:46%;
-         height: 900px;        
-        }
-        section #ubi ul{
-            list-style: none;
-           }
-        section #con{
-            width: 45%;
-            height: 850px;
-           }
-    aside{
-            width: 43%;
-            height: 850px;
+    section #ubi{
+        width: 80%;
+        height: 1400px;
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+       }
+       #puerta1,#puerta2,#salon1,#salon2{
+        float: block;
+        height: 300px;
+        width: 410px;
     }
+       section #ubi ul{
+           list-style: none;
+          }
+       section #con{
+           width: 60%;
+           height: 500px;
+           margin-left: 20%;
+           margin-right: 20%;
+           display: block;
+    
+           
+          }
+    aside{
+           width: 100%;
+           height:500px;
+           display: block;
+    }
+    
 
 
  }
- @media (max-width : 950px){
+ @media (max-width : 1050px){
     nav >ul>li{
         display: inline;
         position: relative;
@@ -294,34 +294,34 @@ article{
         text-align: center;
         display: inline;
     }
- #ima,#ima1,#ima2{
-    height: 50px;
-    width: 50px;
- }
 section{
     width: 100%;
-    height: 1600px;
+    height: 2000px;
     text-align: center;
    }
    
 section #ubi{
-    text-align: center;
-    width: 40%;
-    height: 1100px;
+    width: 80%;
+    height: 1500px;
     display: block;
-    padding-right: 205px;
-    background-color: #851E18;
+    margin-left: 10%;
+    margin-right: 10%;
    }
+   #puerta1,#puerta2,#salon1,#salon2{
+    float: block;
+    height: 300px;
+    width: 400px;
+}
    section #ubi ul{
        list-style: none;
       }
    section #con{
-       width: 50%;
+       width: 60%;
        height: 500px;
-       margin-left: 110px;
+       margin-left: 20%;
+       margin-right: 20%;
        display: block;
-      
-       background-color: blue;
+
        
       }
 aside{
@@ -335,24 +335,18 @@ aside{
 
 
 
-
 @media (max-width : 600px){
 
     nav ul li{
-        padding-top: 15px;
+        padding-top: 20px;
         text-align: center;
         display: block;
     }
     #logo1{
-        height: 90px;
-        width:  150px;
+        height: 140px;
+        width:  270px;
         float: center;
         border-radius: 20px;
-        }
-        #logo4,#logo{
-            height: 100px;
-            width:  70px;
-            border-radius: 100px;
         }
   h2{
     text-align: center;
@@ -364,22 +358,23 @@ aside{
    }
    
     section #ubi{
-     width: 50%;
+     width: 70%;
      height: 1000px;
      display: block;
-     padding-right: 100px;
-     background-color: #851E18;
+     margin-left:  12%;
+     margin-right:  12%;
      
     }
     section #ubi ul{
         list-style: none;
        }
     section #con{
-        width: 50%;
+        text-align: center;
+        width: 60%;
         display: block;
         height: 580px;
-        margin-left: 100px;
-        background-color: blue;
+        margin-left: 20%;
+        margin-right: 20%;
        }
 aside{
         width: 100%;
@@ -393,5 +388,81 @@ aside{
 } 
     #wasap,#face,#insta,#tel,#mail{
     display: inline;
+    }
+    #icons{
+        padding-right: 30px;
+    }
+    #puerta1,#puerta2,#salon1,#salon2{
+        float: block;
+        height: 180px;
+        width: 260px;
+    }
+}
+
+@media (max-width : 400px){
+    nav{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    nav ul li{
+        padding-top: 20px;
+        text-align: center;
+        display: block;
+    }
+    #logo1{
+        height: 130px;
+        width:  210px;
+        float: center;
+        border-radius: 20px;
+        }
+  h2{
+    text-align: center;
+  }
+  section{
+    width: 100%;
+    height: 1600px;
+    text-align: center;
+   }
+   
+    section #ubi{
+    text-align: center;
+     width: 60%;
+     height: 1000px;
+     display: block;
+     margin-left:  18%;
+     margin-right: 18%;
+     
+    }
+    section #ubi ul{
+        list-style: none;
+       }
+    section #con{
+        text-align: center;
+        width: 65%;
+        display: block;
+        height: 580px;
+        margin-left: 15%;
+        margin-right:15%;
+       }
+aside{
+        width: 100%;
+        height: 550px;
+        display: block;
+}
+  #logo3,#logo2{
+    padding-top: 10px;
+    height: 60px;
+    width: 80px;
+} 
+    #wasap,#face,#insta,#tel,#mail{
+    display: inline;
+    }
+    #icons{
+        padding-right: 30px;
+    }
+    #puerta1,#puerta2,#salon1,#salon2{
+        float: block;
+        height: 130px;
+        width: 150px;
     }
 }

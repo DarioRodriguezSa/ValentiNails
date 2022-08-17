@@ -25,20 +25,6 @@ body{
     border-radius: 20px;
     
 }
-#logo{
-    height: 120px;
-     width: 100px;
-    float: left;
-    border-radius: 20px;
-    padding-left: 20px;
-}
-#logo4{
-    height: 120px;
-    width: 100px;
-    float: right;
-    padding-left:10px ;
-    border-radius: 20px;
-}
 header{
     text-align: center;
     font-size: 40px;
@@ -187,4 +173,115 @@ article{
 #amor,#justi,#hones{
     display: block;
     padding-left: 50px;
+}
+
+@media (max-width : 1300px){
+    section{
+        height: 600px;
+    } 
+    aside{
+        height: 600px;
+
+    }
+}
+
+@media (max-width : 990px){
+    nav >ul>li{
+        display: inline;
+        position: relative;
+        padding: 0;
+       font-size: 25px;
+    }
+    #logo1{
+        height: 140px;
+        width:  280px;
+        float: center;
+        border-radius: 20px;
+        }
+  h2{
+    text-align: center;
+  }
+   section{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+   }
+   
+    section #ubi{
+     width: 100%;
+     height: 500px;
+     display: block;
+    }
+    section #ubi ul{
+        list-style: none;
+       }
+    section #con{
+        width: 100%;
+        display: block;
+        height: 500px;
+       }
+aside{
+        width: 100%;
+        height: 420px;
+}
+  #logo3,#logo2{
+    padding-top: 10px;
+    height: 60px;
+    width: 80px;
+} 
+#amor,#justi,#hones{
+    display: block;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+}
+
+@media (max-width : 600px){
+    nav ul li{
+        padding-top: 20px;
+        text-align: center;
+        display: block;
+    }
+    #logo1{
+        height: 140px;
+        width:  280px;
+        float: center;
+        border-radius: 20px;
+        }
+  h2{
+    text-align: center;
+  }
+   section{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+   }
+   
+    section #ubi{
+     width: 100%;
+     height: 500px;
+     display: block;
+    }
+    section #ubi ul{
+        list-style: none;
+       }
+    section #con{
+        width: 100%;
+        display: block;
+        height: 500px;
+       }
+aside{
+        width: 100%;
+        height: 420px;
+}
+  #logo3,#logo2{
+    padding-top: 10px;
+    height: 60px;
+    width: 80px;
+} 
+#amor,#justi,#hones{
+    display: block;
+    margin-left: 26%;
+    margin-right: 26%;
+}
 }
